@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user-center
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.97.25.225:3306/user-center
+    username: sudoRoot
+    password: 2006722Hjb%
+    hikari:
+      max-lifetime: 1800000  # 30分钟
+  session:
+    timeout: 86400
+server:
+  port: 8080
