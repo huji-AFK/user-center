@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class UserServiceTest {
 
     @Resource
-    private UserService userService;
+     private UserService userService;
 
     @Test
     void testAddUser() {
